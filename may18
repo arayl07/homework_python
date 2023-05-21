@@ -1,0 +1,31 @@
+#первая задача
+user_input = input("введите число: ")
+user_int = int(user_input)
+
+result = user_int **2
+print("Результат:", result)
+
+#вторая задача
+print('введите 2 числа')
+a = int(input(10))
+b = int(input(20))
+c = (a+b)/2
+print("результат:", result)
+#почему ответ 10?
+
+#третяя задача
+user_input = input("площадь квадрата: ")
+user_int = int(user_input)
+result = (a*b)
+print("площадь квадрата:" , result)
+
+user_input = input("вывести ариф: ")
+user_int1 = int(user_input)
+user_input = input("вывести ариф: ")
+user_int2 = int(user_input)
+result= (user_int1 + user_int2) / 2
+print("результат:", result)
+
+#четвертая задача
+km=float(input('km='))
+print('am=',km*0.6214)
